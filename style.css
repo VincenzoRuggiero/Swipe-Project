@@ -1,0 +1,101 @@
+:root {
+  /* Colors */
+  --text-dark: #000;
+  --text-light: #fff;
+  --text-grey: #adbdcc;
+  --purple-1: #6962f7;
+  --purple-2: #7000ff;
+  --blue-1: #00d4ff;
+  --primary-accent: #0a2540;
+  --bg-white: #fff;
+  --bg-light: #f7f9fc;
+
+  /* Fonts */
+  --body-font: "Roboto", sans-serif;
+  --heading-font: "Anek Telugu", sans-serif;
+
+  /* Text Sizes */
+  --h1-size: 94px;
+  --h2-size: 50px;
+  --h3-size: 40px;
+  --h4-size: 32px;
+  --h5-size: 28px;
+  --h6-size: 22px;
+
+  /* Line heights */
+  --h1-height: 108px;
+  --h2-height: 75px;
+
+  /* Spacings */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-dark);
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: var(--spacing-sm) 0 0 0;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: var(--h1-size);
+  font-weight: 600;
+  margin: 0;
+  width: 100%;
+  letter-spacing: -1px;
+  line-height: var(--h1-height);
+}
+h2 {
+  font-family: var(--heading-font);
+  font-size: var(--h2-size);
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+  letter-spacing: -0.25px;
+}
+h3 {
+  font-family: var(--heading-font);
+  font-size: var(--h3-size);
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+}
+h4 {
+  font-family: var(--heading-font);
+  font-size: var(--h4-size);
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+  letter-spacing: 0.25px;
+}
+h5 {
+  font-family: var(--heading-font);
+  font-size: var(--h5-size);
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+}
+h6 {
+  font-family: var(--heading-font);
+  font-size: var(--h6-size);
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--purple-1);
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: var(--primary-accent);
+}
